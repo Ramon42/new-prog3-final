@@ -1,0 +1,8 @@
+INSERT into campuses (campus, created_at, updated_at) VALUES ('CLM', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT into campuses (campus, created_at, updated_at) VALUES ('Cornélio Procópio', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT into campuses (campus, created_at, updated_at) VALUES ('Jacazerinho', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+INSERT into cursos (curso, created_at, updated_at) VALUES ('Sistemas de Informação', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT into cursos (curso, created_at, updated_at) VALUES ('Computação', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT into cursos (curso, created_at, updated_at) VALUES ('Ciência da Computacão', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
