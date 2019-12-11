@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ConfigRequest;
 use App\Preferencia;
 use App\Preferencias_as_users;
 use Illuminate\Http\Request;
@@ -27,6 +28,13 @@ class PreferenciasController extends Controller
         return Redirect::to('/adm/preferencias');
     }
 
+    public function update_user(ConfigRequest $request)
+    {
+        $data = $request->all();
+        Preferencias_as_users::create($data);
+        return  route('configs');
+
+    }
     /*
     public function update(PrefUpdateRequest $request, $id)
     {
@@ -55,11 +63,12 @@ class PreferenciasController extends Controller
                 ['id_user', '!=', $id]])
                          ->join('users', 'id_user', '=', 'users.id')
                          ->join('preferencias', 'id_pref', '=', 'preferencias.id')
-                         ->select('users.username', 'users.id', 'id_pref', 'preferencias.desc_pref')
+                         ->select('users.nome', 'users.username', 'users.id', 'id_pref', 'preferencias.desc_pref')
                          ->get() as $row)
             {
                 $sugestao = (object)array(
                     "id" => $row['id'],
+                    "nome" => $row['nome'],
                     "desc_pref" => $row['desc_pref'],
                     'username' => $row['username']
                 );

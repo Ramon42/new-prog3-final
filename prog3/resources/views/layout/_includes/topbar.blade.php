@@ -23,7 +23,7 @@
                         <i class="fas fa-cog"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="{{ view('perfil.configuracoes') }}">Configurações</a>
+                        <a class="dropdown-item" href="{{ route('configs') }}">Configurações</a>
                         <a class="dropdown-item" href="#">Reportar bugs</a>
                         <a class="dropdown-item" href="/logout">Logout</a>
                     </div>

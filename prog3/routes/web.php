@@ -43,4 +43,8 @@ Route::group(['middleware'=>'auth'], function (){
     Route::get('/sugestoes', ['as'=>'sugestoes', 'uses'=>"PreferenciasController@find_matching"]);
 
     Route::get('/chat/{id}', ['as'=>'chat', 'uses'=>'MensagemController@index']);
+    Route::post('/combinacao/aprovar', ['as'=>'combinacao.aprovar', 'uses'=>'CombinacaoController@aprovar']);
+
+    Route::get('/configuracoes', ['as'=>'configs', 'uses'=>'UserController@configuracoes']);
+    Route::post('/configuracoes/update', ['as'=>'configs.update', 'uses'=>'PreferenciasController@update_user']);
 });

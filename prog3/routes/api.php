@@ -32,7 +32,7 @@ Route::post('/cadastrar/send', ['as'=>'site.cadastro.send', 'uses'=>'UserControl
 
 Auth::routes(['verify'=>true]);
 
-
+Route::post('/configuracoes/update', ['as'=>'configs.update', 'uses'=>'PreferenciasController@update_user']);
 
 //ROTAS DE ADMS
 Route::get('/adm/preferencias', ['as' => 'adm.pref', 'uses' => 'PreferenciasController@index']);
@@ -47,5 +47,6 @@ Route::group(['middleware'=>'auth'], function (){
     Route::post('/enviar_comentario', ['as' => 'posts.comentar', 'uses'=>'ComentarioController@comentar']);
     Route::get('/sugestoes', ['as'=>'sugestoes', 'uses'=>"PreferenciasController@find_matching"]);
     Route::get('/chat/{id}', ['as'=>'chat', 'uses'=>'MensagemController@index']);
+
 });
 

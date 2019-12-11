@@ -27,6 +27,7 @@
         <div class="input-group mb-3"></div>
         <!--<input type="button" id="btnlogin" class="btn btn-dark" value="Logar Script">-->
         <input type="submit" class="btn btn-dark" value="Logar">
+        <a href="/cadastrar" class="btn btn-dark">Cadastre-se</a>
     </form>
     <div id='messages' style="border: thin #11400e solid; "></div>
 </div>

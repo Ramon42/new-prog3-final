@@ -14,9 +14,16 @@
                         <div  class="card col-sm col-lg-6">
                             <img class="card-img-top" src="..." alt="Card image cap">
                             <div class="card-body">
+                                <p class="card-text">{{ $sugestao->nome }}</p>
                                 <p class="card-text">Sugestão por preferência: {{ $sugestao->desc_pref }}</p>
-                                <button type="button" class="btn btn-danger">Nope</button>
-                                <button type="button" class="btn btn-success">Yep</button>
+                                <a href="#" class="btn btn-danger"><i class="fas fa-times"></i></a>
+                                <button type="button" name = "estudar" class="btn btn-info"><i class="fas fa-book"></i></button>
+                                <form method="post" action="{{ route('combinacao.aprovar') }}">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="id_tipo" value="2">
+                                    <input type="hidden" name="id_user2" value="{{ $sugestao->id }}">
+                                    <button type="submit" class="btn btn-success"><i class="fas fa-vote-yea"></i></button>
+                                </form>
                             </div>
                         </div>
                         <div class="col-sm col-lg-3"></div>

@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2accdb74-524b-4f7d-82c3-60be50f8c000" name="Default Changelist" comment="" />
+    <list default="true" id="2accdb74-524b-4f7d-82c3-60be50f8c000" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Combinacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Combinacao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PreferenciasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PreferenciasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Preferencias_as_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Preferencias_as_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inicial/cadastro.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicial/cadastro.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/perfil/configuracoes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perfil/configuracoes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/procurar_combinacoes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/procurar_combinacoes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -105,6 +121,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1UpB7LFk8beRVX4TadrcKHMYDg3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -158,6 +175,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576043487646</updated>
       <workItem from="1576043489410" duration="7561000" />
+      <workItem from="1576090334855" duration="179000" />
+      <workItem from="1576091387699" duration="5547000" />
     </task>
     <servers />
   </component>
@@ -169,13 +188,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Composer/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576043518200" />
-    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576043939772">
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1576095993606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576043939772" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576050718592">
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576095993606" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1576090513541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576050718592" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576090513541" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1576090513541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576090513541" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1576090513541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576090513541" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1576090513541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576090513541" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576091399861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576091399861" />
   </component>
 </project>

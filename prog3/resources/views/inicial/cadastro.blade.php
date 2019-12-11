@@ -32,7 +32,7 @@
                 <select class="custom-select" id="inputcampus">
                     <option selected>Qual o seu Campus?</option>
                     @foreach($campus as $cp)
-                        <option value="{{ $cp->id }}">{{ $cp->campus }}</option>
+                        <option name='id_campus' value="{{ $cp->id }}">{{ $cp->campus }}</option>
                     @endforeach
                 </select>
             </div>
@@ -43,10 +43,11 @@
                 <select class="custom-select" id="inputcurso">
                     <option selected>Qual o seu curso?</option>
                     @foreach($cursos as $cr)
-                        <option value="{{ $cr->id }}">{{ $cr->curso }}</option>
+                        <option name='id_curso' value="{{ $cr->id }}">{{ $cr->curso }}</option>
                     @endforeach
                 </select>
             </div>
+
             <label for="inputemail">Endereço de E-mail</label>
             <input type="email" name="email" class="form-control" id="inputemail" placeholder="E-mail" >
             <label for="inputpassword">Senha</label>
@@ -54,6 +55,7 @@
             <input type="checkbox" name="agree" id="ckbxtermos"> Aceito os Termos
             <div class="input-group mb-3"></div>
             <input type="button" id="btncadastro" class="btn btn-dark" value="Cadastrar">
+            <a href="/login" class="btn btn-dark">Login</a>
         </form>
         <div id='messages' style="border: thin black solid; "></div>
     </div>

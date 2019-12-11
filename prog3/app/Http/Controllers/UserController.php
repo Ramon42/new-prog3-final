@@ -73,7 +73,6 @@ class UserController extends Controller
 
     public function register(UserStoreRequest $request)
     {
-        echo 'ENTROU';
         $data = $request->validated();
         $data['password'] = bcrypt($data['password']);
         $user = User::create($data);
@@ -83,6 +82,13 @@ class UserController extends Controller
             return redirect('/login');
         }
     }
+
+    public function configuracoes()
+    {
+        $prefs = DB::table('preferencias')->get();
+        return view('perfil.configuracoes', compact('prefs'));
+    }
+
     public function logout()
     {
         Auth::logout();
