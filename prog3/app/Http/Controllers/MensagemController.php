@@ -28,5 +28,7 @@ class MensagemController extends Controller
             'id_combinacao' => 'required',
             'sent_by' => 'required'
         ]);
+        $data = $request->all();
+        Mensagem::create($data);
     }
 }
