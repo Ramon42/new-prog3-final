@@ -21,4 +21,12 @@ class MensagemController extends Controller
             ->get();
         return view('chat', compact('mensagens'));
     }
+    public function send(Request $request)
+    {
+        $request->validate([
+            'msg' => 'required',
+            'id_combinacao' => 'required',
+            'sent_by' => 'required'
+        ]);
+    }
 }

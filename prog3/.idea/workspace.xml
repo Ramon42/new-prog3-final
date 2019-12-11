@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2accdb74-524b-4f7d-82c3-60be50f8c000" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Combinacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Combinacao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PreferenciasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PreferenciasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Preferencias_as_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Preferencias_as_users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inicial/cadastro.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inicial/cadastro.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/_includes/topbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/perfil/configuracoes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perfil/configuracoes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/procurar_combinacoes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/procurar_combinacoes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MensagemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MensagemController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +128,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -177,6 +168,7 @@
       <workItem from="1576043489410" duration="7561000" />
       <workItem from="1576090334855" duration="179000" />
       <workItem from="1576091387699" duration="5547000" />
+      <workItem from="1576102621954" duration="938000" />
     </task>
     <servers />
   </component>
@@ -208,6 +200,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576090513541" />
+    <state x="217" y="0" key="SettingsEditor" timestamp="1576103509280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="217" y="0" key="SettingsEditor/0.0.1920.1040/1920.104.1600.860@0.0.1920.1040" timestamp="1576103509280" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576091399861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
