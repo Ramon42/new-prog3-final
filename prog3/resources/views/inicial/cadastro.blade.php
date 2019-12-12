@@ -29,10 +29,10 @@
                 <div class="input-group-prepend">
                     <label class="input-group-text" for="inputcampus">Selecione seu Campus</label>
                 </div>
-                <select class="custom-select" id="inputcampus">
+                <select class="custom-select" name='id_campus' id="inputcampus">
                     <option selected>Qual o seu Campus?</option>
                     @foreach($campus as $cp)
-                        <option name='id_campus' value="{{ $cp->id }}">{{ $cp->campus }}</option>
+                        <option  value="{{ $cp->id }}">{{ $cp->campus }}</option>
                     @endforeach
                 </select>
             </div>
@@ -40,10 +40,10 @@
                 <div class="input-group-prepend">
                     <label class="input-group-text" for="inputcurso">Selecione seu Curso</label>
                 </div>
-                <select class="custom-select" id="inputcurso">
+                <select class="custom-select" name='id_curso' id="inputcurso">
                     <option selected>Qual o seu curso?</option>
                     @foreach($cursos as $cr)
-                        <option name='id_curso' value="{{ $cr->id }}">{{ $cr->curso }}</option>
+                        <option  value="{{ $cr->id }}">{{ $cr->curso }}</option>
                     @endforeach
                 </select>
             </div>
@@ -55,6 +55,7 @@
             <input type="checkbox" name="agree" id="ckbxtermos"> Aceito os Termos
             <div class="input-group mb-3"></div>
             <input type="button" id="btncadastro" class="btn btn-dark" value="Cadastrar">
+            <input type="submit">
             <a href="/login" class="btn btn-dark">Login</a>
         </form>
         <div id='messages' style="border: thin black solid; "></div>
